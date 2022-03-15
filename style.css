@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.navbar,
+.nav,
+.nav_style {
+  display: flex;
+  align-items: center;
+}
+
+.nav_style {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.nav {
+  width: 50%;
+  justify-content: space-between;
+}
+.navbar {
+  width: 100%;
+  position: relative;
+  background-color: rgb(121, 50, 224);
+  height: 100px;
+}
+.nav li,
+.nav_logo li,
+.nav_settings li {
+  list-style: none;
+}
+.nav_settings {
+  height: 40px;
+  width: 40px;
+  padding: 3px 0;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.nav li a,
+.nav_logo li a,
+.nav_settings li a {
+  text-decoration: none;
+  color: white;
+}
+.nav li a {
+  font-weight: 300;
+}
+.nav li {
+  height: 40px;
+}
+.nav {
+  width: 70%;
+  justify-content: end;
+  gap: 10%;
+}
+.nav .home {
+  border-bottom: 2px solid white;
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 11%;
+}
+.img_logo {
+}
+.nav_logo .logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+.background {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(97, 23, 218),
+    rgb(182, 79, 241)
+  );
+}
+.bg-trans {
+  background-image: url(bg.svg);
+  opacity: 0.2;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  /* background-position: center; */
+}
+
+.content-grid {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 46% 50%;
+  margin: 20px 20px;
+}
+
+.grid-content {
+  /* padding: 120px 20px; */
+  text-align: left;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+.grid-content:nth-child(2) {
+  align-items: center;
+}
+.grid-content:nth-child(1) {
+  display: flex;
+  margin: 0 40px;
+  padding: 120px 20px;
+}
+.grid-content .content-1 {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 50px;
+  width: 100%;
+  color: white;
+}
+.grid-content .content-2 {
+  margin-bottom: 30px;
+  width: 80%;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.grid-content .button-content-3 {
+  width: 45%;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(228, 59, 243);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.grid-content .img-content {
+  height: 500px;
+  margin-top: 90px;
+}
