@@ -8,7 +8,8 @@
 
 .navbar,
 .nav,
-.nav_style {
+.nav_style,
+.nav_settings {
   display: flex;
   align-items: center;
 }
@@ -34,12 +35,6 @@
   list-style: none;
 }
 .nav_settings {
-  height: 40px;
-  width: 40px;
-  padding: 3px 0;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 50%;
 }
 .nav li a,
 .nav_logo li a,
@@ -59,7 +54,7 @@
   gap: 10%;
 }
 .nav .home {
-  border-bottom: 2px solid white;
+  border-bottom: 6px solid white;
 }
 .nav_logo {
   display: flex;
