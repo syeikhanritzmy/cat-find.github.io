@@ -113,23 +113,24 @@
   display: flex;
   margin: 0 40px;
   padding: 120px 20px;
+  border-bottom: 2px solid white;
 }
 .grid-content .content-1 {
   font-weight: 800;
   text-transform: capitalize;
   font-size: 50px;
-  width: 100%;
+  width: 500px;
   color: white;
 }
 .grid-content .content-2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   width: 80%;
   font-size: 18px;
   color: rgb(255, 255, 255);
 }
 
 .grid-content .button-content-3 {
-  width: 45%;
+  width: 240px;
   height: 60px;
   border-radius: 10px;
   outline: none;
